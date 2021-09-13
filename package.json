@@ -1,0 +1,37 @@
+{
+  "name": "lit-todolist",
+  "version": "1.0.0",
+  "description": "todolist based on lit",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc --watch",
+    "serve": "wds --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GitHubJiKe/lit-todolist.git"
+  },
+  "keywords": [
+    "todolist",
+    "lit"
+  ],
+  "author": "yuanpengfei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GitHubJiKe/lit-todolist/issues"
+  },
+  "homepage": "https://github.com/GitHubJiKe/lit-todolist#readme",
+  "devDependencies": {
+    "@web/dev-server": "^0.1.22",
+    "@web/dev-server-legacy": "^0.1.7",
+    "gulp": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.6.0",
+    "lit": "^2.0.0-rc.4"
+  }
+}
